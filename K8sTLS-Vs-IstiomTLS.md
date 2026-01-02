@@ -120,7 +120,7 @@ spiffe://cluster.local/ns/default/sa/payments
 ## 7. Certificate Lifecycle Management
 
 | Aspect              | Kubernetes TLS      | Istio mTLS               |
-| -| -| |
+| -| -| - |
 | CA management       | Manual / kubeadm    | Automatic (istiod)       |
 | Cert rotation       | Manual or semi-auto | Automatic (default ~24h) |
 | Secret distribution | Admin-managed       | Sidecar-managed          |
@@ -131,7 +131,7 @@ spiffe://cluster.local/ns/default/sa/payments
 ## 8. Traffic Direction Coverage
 
 | Traffic                       | Kubernetes TLS | Istio mTLS   |
-| --| --| |
+| --| --| -- |
 | Control plane                 | ✅              | ❌            |
 | Node ↔ control plane          | ✅              | ❌            |
 | East–West (service ↔ service) | ❌              | ✅            |
