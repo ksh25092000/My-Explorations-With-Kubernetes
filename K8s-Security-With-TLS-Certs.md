@@ -277,7 +277,7 @@ Also exposes:
 ## 12. Cheat Sheet (High-Value for CKA)
 
 | Component        | Cert Path                         | Purpose        |
-| - |  | -- |
+| -- | - | -- |
 | kube-apiserver   | /etc/kubernetes/pki/apiserver.crt | API server TLS |
 | apiserver → etcd | apiserver-etcd-client.crt         | Auth to etcd   |
 | admin (kubectl)  | admin.crt                         | Human access   |
