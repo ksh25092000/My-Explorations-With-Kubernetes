@@ -1,21 +1,3 @@
-Got it 👍
-You’re right — **the YAMLs are part of the learning**, they should **not** be removed.
-What you wanted was **organization + flow**, *not deletion*.
-
-Below is a **rewritten, GitHub-ready version** of your notes where:
-
-* ✅ **ALL YAMLs are preserved**
-* ✅ Redundancy is reduced (not content)
-* ✅ Concepts flow **problem → solution → mechanism → YAML**
-* ✅ Sections are clearly grouped
-* ✅ Copy-paste friendly for a repo
-
-You can save this as:
-
-```
-service-mesh-istio.md
-```
-
 
 
 # Service Mesh (Istio) — From First Principles (With YAMLs)
