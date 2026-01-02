@@ -291,7 +291,7 @@ Envoy Proxies
 ## 10. Istio CRDs — Who Does What
 
 | CRD                | Purpose                    |
-| | -- |
+| - | - |
 | VirtualService     | Traffic routing rules      |
 | DestinationRule    | Traffic behavior + subsets |
 | PeerAuthentication | Inbound mTLS policy        |
@@ -459,7 +459,7 @@ spec:
 ```
 
 | Component          | Role                        |
-|  |  |
+| - | - |
 | PeerAuthentication | Requires mTLS (server side) |
 | DestinationRule    | Sends mTLS (client side)    |
 
