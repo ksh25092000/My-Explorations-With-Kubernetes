@@ -291,7 +291,7 @@ Envoy Proxies
 ## 10. Istio CRDs — Who Does What
 
 | CRD                | Purpose                    |
-|                    | --                         |
+| | -- |
 | VirtualService     | Traffic routing rules      |
 | DestinationRule    | Traffic behavior + subsets |
 | PeerAuthentication | Inbound mTLS policy        |
